@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
 	<head>
+	  <meta charset=utf-8/>
 	  <title>Pakkun</title>
 
 	  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-	  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+	  <link href='https://api.mapbox.com/mapbox-gl-js/v0.18.0/mapbox-gl.css' rel='stylesheet'/>
 
+	  <script src='https://api.mapbox.com/mapbox-gl-js/v0.18.0/mapbox-gl.js'></script>
 	  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-	  <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+
 	  <%= csrf_meta_tags %>
 	</head>
 
