@@ -1,0 +1,43 @@
+.hero {
+  $large-screen: 50em !default;
+  align-items: center;
+  background: image-url("https://upload.wikimedia.org/wikipedia/commons/3/37/Venus_Flytrap_showing_trigger_hairs.jpg");
+  background-position: right;
+  background-size: none;
+  display: flex;
+  justify-content: center;
+  min-height: 25em;
+  padding: 2em;
+  color: white;
+
+  @include media($large-screen) {
+    background-position: left;
+    background-size: cover;
+    justify-content: flex-end;
+  }
+
+  .hero-content {
+    max-width: 20em;
+    text-align: center;
+
+    @include media($large-screen) {
+      text-align: left;
+    }
+  }
+
+  .hero-logo {
+    margin: auto;
+  }
+}
+
+// body {
+//   margin:0;
+//   padding:0;
+// }
+
+// #map {
+//   position:absolute;
+//   top:0;
+//   bottom:0;
+//   width:100%;
+// }
