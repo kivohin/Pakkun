@@ -1,7 +1,12 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
 .hero {
   $large-screen: 50em !default;
   align-items: center;
-  background: image-url("https://upload.wikimedia.org/wikipedia/commons/3/37/Venus_Flytrap_showing_trigger_hairs.jpg");
+  background-image: image-url("venus_flytrap_in_nature.jpeg");
   background-position: right;
   background-size: none;
   display: flex;
@@ -30,14 +35,7 @@
   }
 }
 
-// body {
-//   margin:0;
-//   padding:0;
-// }
-
-// #map {
-//   position:absolute;
-//   top:0;
-//   bottom:0;
-//   width:100%;
-// }
+#map {
+	width: 100%;
+	height: 500px;
+}
