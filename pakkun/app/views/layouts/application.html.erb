@@ -6,9 +6,11 @@
 	  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no'/>
 
 	  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-	  <link href='https://api.mapbox.com/mapbox-gl-js/v0.18.0/mapbox-gl.css' rel='stylesheet'/>
+	  <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/v0.18.0/mapbox-gl.css'/>
+	  <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.1.0/mapbox-gl-geocoder.css' type='text/css'/>
 
 	  <script src='https://api.mapbox.com/mapbox-gl-js/v0.18.0/mapbox-gl.js'></script>
+	  <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.1.0/mapbox-gl-geocoder.js'></script>
 	  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 
 	  <%= csrf_meta_tags %>
