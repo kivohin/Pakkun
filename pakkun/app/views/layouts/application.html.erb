@@ -5,12 +5,13 @@
 	  <title>Pakkun</title>
 	  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no'/>
 
-	  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-	  <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/v0.18.0/mapbox-gl.css'/>
-	  <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.1.0/mapbox-gl-geocoder.css' type='text/css'/>
+	  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+	  <link href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet'/>
+	  <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.mapbox.css' rel='stylesheet'/>
+	  <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/css/font-awesome.min.css' rel='stylesheet'/>
 
-	  <script src='https://api.mapbox.com/mapbox-gl-js/v0.18.0/mapbox-gl.js'></script>
-	  <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.1.0/mapbox-gl-geocoder.js'></script>
+	  <script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
+	  <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.min.js'></script>
 	  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 
 	  <%= csrf_meta_tags %>
@@ -20,7 +21,7 @@
 		<header class="centered-navigation" role="banner">
 		  <div class="centered-navigation-wrapper">
 		    <a href="javascript:void(0)" class="mobile-logo">
-		      <img src="http://www.mariowiki.com/images/thumb/f/f1/SPM_Piranha_Plant.png/150px-SPM_Piranha_Plant.png" alt="Logo image">
+		      <%= image_tag('pakkun_logo.png', class: "hero-logo") %>
 		    </a>
 		    <a href="javascript:void(0)" id="js-centered-navigation-mobile-menu" class="centered-navigation-mobile-menu">MENU</a>
 		    <nav role="navigation">
@@ -30,7 +31,7 @@
 		        <li class="nav-link"><a href="javascript:void(0)">Contact</a></li>
 		        <li class="nav-link logo">
 		          <a href="javascript:void(0)" class="logo">
-		            <img src="http://www.mariowiki.com/images/thumb/f/f1/SPM_Piranha_Plant.png/150px-SPM_Piranha_Plant.png" alt="Logo image">
+		            <%= image_tag('pakkun_logo.png', class: "hero-logo") %>
 		          </a>
 		        </li>
 		        <li class="nav-link"><a href="javascript:void(0)">Testimonials</a></li>
@@ -66,7 +67,7 @@
 
 		<footer class="footer-2" role="contentinfo">
 		  <div class="footer-logo">
-		    <img src="http://www.mariowiki.com/images/thumb/f/f1/SPM_Piranha_Plant.png/150px-SPM_Piranha_Plant.png" alt="Logo image">
+		    <%= image_tag('pakkun_logo.png', class: "hero-logo") %>
 		  </div>
 		    <ul>
 		      <li><a href="javascript:void(0)">About</a></li>
