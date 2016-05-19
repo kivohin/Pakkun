@@ -34,7 +34,7 @@ $(function() {
 	    "type": "Feature",
 	    "geometry": {
 	      "type": "Point",
-	      "coordinates": [6.0044086, 51.8710129] // [lng, lat]
+	      "coordinates": [6.0044086, 51.8710129] // [lng, lat] - GMaps [lat, lng]
 	    },
 	    "properties": {
 	    	"title": "Venus Flytrap",
@@ -48,11 +48,11 @@ $(function() {
 	    "type": "Feature",
 	    "geometry": {
 	      "type": "Point",
-	      "coordinates": [-122.413682,37.775408]
+	      "coordinates": [-77.1022438, 34.8940746] // [lng, lat] - GMaps [lat, lng]
 	    },
 	    "properties": {
 	    	"title": "Sweet Pitcher Plant",
-      	"description": "Croatan National Forest, North Carolina (USA)",
+      	"description": 'Croatan National Forest, North Carolina (USA) <a href="https://en.wikipedia.org/wiki/sarracenia_rubra">Details</a>',
 	      "marker-color": "#63b6e5",
 	      "marker-size": "large",
 	      "marker-symbol": "garden"
