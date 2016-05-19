@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   resources :home_page
+  get "/plant-locations" => "plant_locations#index" # return a json object with an array of all the locations in the DB
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'

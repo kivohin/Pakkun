@@ -62,6 +62,15 @@ $(function() {
 
 	var myLayer = L.mapbox.featureLayer().setGeoJSON(geojson).addTo(map);
 
+	// ajax({
+	// 	url: '/plant-locations',
+	// 	success: function (response) {
+	// 		// 1. response should be an array of locations
+	// 		// 2. build a geoObject from locations array
+	// 		// 3. var myLayer = L.mapbox.featureLayer().setGeoJSON(geoObjects).addTo(map);
+	// 	}
+	// })
+
 	myLayer.on('click', function(e) {
   	map.panTo(e.layer.getLatLng());
   });
