@@ -15,6 +15,7 @@ body {
   min-height: 25em;
   padding: 2em;
   color: white;
+  text-shadow: 2px 2px 8px #1D042A;
 
   @include media($large-screen) {
     background-position: left;
