@@ -113,18 +113,18 @@ $(function() {
 	// 	}
 	// })
 
-	myLayer.on('click', function(e) {
-  	map.panTo(e.layer.getLatLng());
-  });
+	// myLayer.on('click', function(e) {
+ //  	map.panTo(e.layer.getLatLng());
+ //  });
 
   $.ajax({
   	dataType: 'text',
-  	url: 'plant_locations/index.json',
+  	url: 'plant_locations.json',
   	method: 'get',
   	success: function(data) {
   		var geojson;
   		geojson = $.parseJSON(data);
-  		return map.featureLayer.setGeoJSON(geojson);
+  		return L.mapbox.featureLayer().setGeoJSON(geojson).addTo(map);
   	}
   })
 });
