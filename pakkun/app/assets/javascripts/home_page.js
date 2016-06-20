@@ -29,80 +29,80 @@ $(function() {
   	position : 'bottomright'
   }).addTo(map);
 
-  var geojson = [
-	  {
-	    "type": "Feature",
-	    "geometry": {
-	      "type": "Point",
-	      "coordinates": [6.0044086, 51.8710129] // [lng, lat] - GMaps [lat, lng]
-	    },
-	    "properties": {
-	    	"title": "Venus Flytrap",
-      	"description": 'Millingerwaard, The Netherlands <a href="https://en.wikipedia.org/wiki/Venus_flytrap">Details</a>',
-	      "marker-color": "#DB3742",
-	      "marker-size": "large",
-	      "marker-symbol": "garden"
-	    }
-	  },
-	  {
-	    "type": "Feature",
-	    "geometry": {
-	      "type": "Point",
-	      "coordinates": [-77.1022438, 34.8940746] // [lng, lat] - GMaps [lat, lng]
-	    },
-	    "properties": {
-	    	"title": "Sweet Pitcher Plant",
-      	"description": 'Croatan National Forest, North Carolina (USA) <a href="https://en.wikipedia.org/wiki/sarracenia_rubra">Details</a>',
-	      "marker-color": "#63b6e5",
-	      "marker-size": "large",
-	      "marker-symbol": "garden"
-	    }
-	  },
-	  {
-	    "type": "Feature",
-	    "geometry": {
-	      "type": "Point",
-	      "coordinates": [29.5706576, -25.3078344] // [lng, lat] - GMaps [lat, lng]
-	    },
-	    "properties": {
-	    	"title": "Sarracenia Purpurea",
-      	"description": 'Kruger National Park, South Africa <a href="https://en.wikipedia.org/wiki/sarracenia_rubra">Details</a>',
-	      "marker-color": "#63b6e5",
-	      "marker-size": "large",
-	      "marker-symbol": "garden"
-	    }
-	  },
-	  {
-	    "type": "Feature",
-	    "geometry": {
-	      "type": "Point",
-	      "coordinates": [122.8500766, -22.43495] // [lng, lat] - GMaps [lat, lng]
-	    },
-	    "properties": {
-	    	"title": "Drosera Capensis",
-      	"description": 'Karlamilyi National Park, Australia <a href="https://en.wikipedia.org/wiki/sarracenia_rubra">Details</a>',
-	      "marker-color": "#63b6e5",
-	      "marker-size": "large",
-	      "marker-symbol": "garden"
-	    }
-	  },
-	  {
-	    "type": "Feature",
-	    "geometry": {
-	      "type": "Point",
-	      "coordinates": [-1.372190, 40.368031] // [lng, lat] - GMaps [lat, lng]
-	    },
-	    "properties": {
-	    	"title": "Drosera Rotundifolia",
-      	"description": 'Pinares de Rodeno, Spain <a href="https://en.wikipedia.org/wiki/sarracenia_rubra">Details</a>',
-	      "marker-color": "#63b6e5",
-	      "marker-size": "large",
-	      "marker-symbol": "garden"
-	    }
-	  }
-	];
+ //  var geojson = [
+	//   {
+	//     "type": "Feature",
+	//     "geometry": {
+	//       "type": "Point",
+	//       "coordinates": [6.0044086, 51.8710129] // [lng, lat] - GMaps [lat, lng]
+	//     },
+	//     "properties": {
+	//     	"title": "Venus Flytrap",
+ //      	"description": 'Millingerwaard, The Netherlands <a href="https://en.wikipedia.org/wiki/Venus_flytrap">Details</a>',
+	//       "marker-color": "#DB3742",
+	//       "marker-size": "large",
+	//       "marker-symbol": "garden"
+	//     }
+	//   },
+	//   {
+	//     "type": "Feature",
+	//     "geometry": {
+	//       "type": "Point",
+	//       "coordinates": [-77.1022438, 34.8940746] // [lng, lat] - GMaps [lat, lng]
+	//     },
+	//     "properties": {
+	//     	"title": "Sweet Pitcher Plant",
+ //      	"description": 'Croatan National Forest, North Carolina (USA) <a href="https://en.wikipedia.org/wiki/sarracenia_rubra">Details</a>',
+	//       "marker-color": "#63b6e5",
+	//       "marker-size": "large",
+	//       "marker-symbol": "garden"
+	//     }
+	//   },
+	//   {
+	//     "type": "Feature",
+	//     "geometry": {
+	//       "type": "Point",
+	//       "coordinates": [29.5706576, -25.3078344] // [lng, lat] - GMaps [lat, lng]
+	//     },
+	//     "properties": {
+	//     	"title": "Sarracenia Purpurea",
+ //      	"description": 'Kruger National Park, South Africa <a href="https://en.wikipedia.org/wiki/sarracenia_rubra">Details</a>',
+	//       "marker-color": "#63b6e5",
+	//       "marker-size": "large",
+	//       "marker-symbol": "garden"
+	//     }
+	//   },
+	//   {
+	//     "type": "Feature",
+	//     "geometry": {
+	//       "type": "Point",
+	//       "coordinates": [122.8500766, -22.43495] // [lng, lat] - GMaps [lat, lng]
+	//     },
+	//     "properties": {
+	//     	"title": "Drosera Capensis",
+ //      	"description": 'Karlamilyi National Park, Australia <a href="https://en.wikipedia.org/wiki/sarracenia_rubra">Details</a>',
+	//       "marker-color": "#63b6e5",
+	//       "marker-size": "large",
+	//       "marker-symbol": "garden"
+	//     }
+	//   },
+	//   {
+	//     "type": "Feature",
+	//     "geometry": {
+	//       "type": "Point",
+	//       "coordinates": [-1.372190, 40.368031] // [lng, lat] - GMaps [lat, lng]
+	//     },
+	//     "properties": {
+	//     	"title": "Drosera Rotundifolia",
+ //      	"description": 'Pinares de Rodeno, Spain <a href="https://en.wikipedia.org/wiki/sarracenia_rubra">Details</a>',
+	//       "marker-color": "#63b6e5",
+	//       "marker-size": "large",
+	//       "marker-symbol": "garden"
+	//     }
+	//   }
+	// ];
 
-	var myLayer = L.mapbox.featureLayer().setGeoJSON(geojson).addTo(map);
+	// var myLayer = L.mapbox.featureLayer().setGeoJSON(geojson).addTo(map);
 
 	// ajax({
 	// 	url: '/plant-locations',
@@ -116,4 +116,15 @@ $(function() {
 	myLayer.on('click', function(e) {
   	map.panTo(e.layer.getLatLng());
   });
+
+  $.ajax({
+  	dataType: 'text',
+  	url: 'plant_locations/index.json',
+  	method: 'get',
+  	success: function(data) {
+  		var geojson;
+  		geojson = $.parseJSON(data);
+  		return map.featureLayer.setGeoJSON(geojson);
+  	}
+  })
 });
