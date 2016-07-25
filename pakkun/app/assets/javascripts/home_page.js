@@ -11,8 +11,8 @@ $(function() {
 		center: [51.8710129, 6.0044086], // [lat, lng]
 		zoom: 3,
 		zoomControl: false,
-		attributionControl: false,
-    infoControl:true
+		// attributionControl: false,
+  //   infoControl:true
 	});
 
 	L.control.zoom({
