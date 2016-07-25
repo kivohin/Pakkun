@@ -10,7 +10,9 @@ $(function() {
 	var map = L.mapbox.map('map', 'mapbox.outdoors', {
 		center: [51.8710129, 6.0044086], // [lat, lng]
 		zoom: 3,
-		zoomControl: false
+		zoomControl: false,
+		attributionControl: false,
+    infoControl:true
 	});
 
 	L.control.zoom({
@@ -94,7 +96,7 @@ $(function() {
 	//     },
 	//     "properties": {
 	//     	"title": "Drosera Rotundifolia",
- //      	"description": 'Pinares de Rodeno, Spain <a href="https://en.wikipedia.org/wiki/sarracenia_rubra">Details</a>',
+ //      	"description": 'Pinares de Rodeno, Teruel (Spain) <a href="https://en.wikipedia.org/wiki/sarracenia_rubra">Details</a>',
 	//       "marker-color": "#63b6e5",
 	//       "marker-size": "large",
 	//       "marker-symbol": "garden"
@@ -113,9 +115,9 @@ $(function() {
 	// 	}
 	// })
 
-	// myLayer.on('click', function(e) {
- //  	map.panTo(e.layer.getLatLng());
- //  });
+	// get JSON object
+	// on success, parse it and
+	// hand it over to MapBox for mapping
 
   $.ajax({
   	dataType: 'text',
@@ -127,4 +129,9 @@ $(function() {
   		return L.mapbox.featureLayer().setGeoJSON(geojson).addTo(map);
   	}
   })
+
+  // myLayer.on('click', function(e) {
+  // 	map.panTo(e.layer.getLatLng());
+  // });
+
 });
