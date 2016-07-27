@@ -11,7 +11,11 @@ $(function() {
 		center: [51.8710129, 6.0044086], // [lat, lng]
 		zoom: 3,
 		zoomControl: false,
-		minZoom: 2
+		minZoom: 2,
+		maxBounds: ([
+			[-84.67351256610522, -189.84375],
+			[84.40594104126978, 185.625]
+		])
 	});
 
 	L.control.zoom({
