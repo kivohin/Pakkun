@@ -155,7 +155,7 @@ PLATFORMS
 
 DEPENDENCIES
   autoprefixer-rails
-  bootstrap-sass (= 3.3.6)
+  bootstrap-sass (~> 3.3.6)
   bourbon (= 4.2.7)
   byebug
   coffee-rails (~> 4.1.0)
