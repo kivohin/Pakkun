@@ -4,6 +4,17 @@ body {
 	font-family: $helvetica;
 }
 
+.jumbotron {
+	align-items: center;
+	background-image: image-url("venus_flytrap_in_nature.jpeg");
+	background-position: right;
+	background-size: 100%;
+	display: flex;
+	justify-content: center;
+	color: white;
+	text-shadow: 2px 2px 8px #1D042A;
+}
+
 .hero {
   $large-screen: 50em !default;
   align-items: center;
