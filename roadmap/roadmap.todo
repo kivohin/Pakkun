@@ -1,4 +1,17 @@
 Pakkun Roadmap:
 
-  Tasks:
-    Lalilu
+Tasks:
+	Ironhack's Final Project named **Pakkun** building tasks.
+	Models (Ruby - Database Templates):
+		✔	Create database for plant locations @done (16-08-02 22:25)
+	Controllers (Ruby - Back End):
+		✔	Build controller action to convert locations from DB into geoJSON objects @critical @done (16-08-02 22:25)
+	Views (HTML, CSS, Javascript - Front End):
+		✔	Create footer @done (16-08-02 22:21)
+		✔	Create header @done (16-08-02 22:21)
+		✔	Create jumbotron @done (16-08-02 22:21)
+		✔	Create map @done (16-08-02 22:21)
+		☐	Build multi step form
+		☐	Make minus (-) zoom button gray if zoom level can’t go higher
+		☐	Cluster markers when several plants locations in same area
+		☐	Customize tooltips - https://www.mapbox.com/mapbox.js/example/v1.0.0/custom-popup-style/
