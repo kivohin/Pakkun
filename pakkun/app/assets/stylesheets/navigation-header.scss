@@ -1,5 +1,5 @@
 .navbar {
-  background-color: rgb(42, 55, 53);
+  background-color: rgb(25, 25, 25);
 }
 
 .navbar-default .navbar-brand {
@@ -22,6 +22,11 @@
 .navbar-toggle {
   background-color: transparent;
   border: 0px;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+  opacity: 0.65;
 }
 
 .navbar-fixed-top {
