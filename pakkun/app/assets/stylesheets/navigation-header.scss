@@ -1,6 +1,5 @@
 .navbar {
   background-color: rgb(42, 55, 53);
-  color: rgb(255, 255, 255);
 }
 
 .navbar-default .navbar-brand {
@@ -9,6 +8,16 @@
 
 .navbar-default .navbar-nav > li > a {
   color: rgb(255, 255, 255);
+}
+
+.navbar-default .navbar-nav > .active > a {
+  background-color: rgb(53, 180, 79);
+  color: rgb(255, 255, 255);
+}
+
+.navbar-toggle {
+  background-color: rgb(53, 180, 79);
+  border-color: rgb(255, 255, 255);
 }
 
 .navbar-fixed-top {
