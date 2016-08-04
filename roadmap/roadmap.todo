@@ -16,3 +16,4 @@ Tasks:
 		☐	Cluster markers when several plants locations in same area
 		☐	Customize tooltips - https://www.mapbox.com/mapbox.js/example/v1.0.0/custom-popup-style
 		☐	Improve footer design, look Evernote's examples
+		☐	Fix jumbotron padding-top inconsistency when device display is >= 768px

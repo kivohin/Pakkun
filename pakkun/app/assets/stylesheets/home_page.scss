@@ -18,43 +18,10 @@ body {
 	padding-top: 80px;
 }
 
-@media screen and (min-width: 768px) {
-    padding-top: 98px;
-    padding-bottom: 48px;
-}
-
-.hero {
-  $large-screen: 50em !default;
-  align-items: center;
-  background-image: image-url("venus_flytrap_in_nature.jpeg");
-  background-position: right;
-  background-size: none;
-  display: flex;
-  justify-content: center;
-  min-height: 25em;
-  padding: 2em;
-  color: white;
-  text-shadow: 2px 2px 8px #1D042A;
-
-  @include media($large-screen) {
-    background-position: left;
-    background-size: cover;
-    justify-content: flex-end;
-  }
-
-  .hero-content {
-    max-width: 20em;
-    text-align: center;
-
-    @include media($large-screen) {
-      text-align: left;
-    }
-  }
-
-  .hero-logo {
-    margin: auto;
-  }
-}
+// @media screen and (min-width: 768px) {
+//     padding-top: 98px;
+//     padding-bottom: 48px;
+// }
 
 #map {
 	width: 100%;
