@@ -13,7 +13,7 @@ Tasks:
 		✔	Create map @done (16-08-02 22:21)
 		☐	Build multi step form
 		☐	Make minus (-) zoom button gray if zoom level can’t go higher
-		☐	Cluster markers when several plants locations in same area
+		☐	Cluster markers when several plants locations in same area - https://www.mapbox.com/mapbox.js/example/v1.0.0/markercluster-with-mapbox-data/
 		☐	Customize tooltips - https://www.mapbox.com/mapbox.js/example/v1.0.0/custom-popup-style
 		☐	Improve footer design, look Evernote's examples
 		☐	Fix jumbotron padding-top inconsistency when device display is >= 768px
