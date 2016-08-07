@@ -40,6 +40,11 @@ body {
   right: 10px;
 }
 
+#map-ui:hover {
+	background-color: #f8f8f8;
+	cursor: pointer;
+}
+
 #map-ui a {
 	// font-size: 13px;
 	height: 26px;
@@ -52,5 +57,4 @@ body {
 	text-decoration: none;
 	// border: 1px solid rgba(0, 0, 0, 0.25);
 	text-align: center;
-	cursor: pointer;
 }
