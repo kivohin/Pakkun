@@ -8,6 +8,7 @@ Tasks:
 	Controllers (Ruby - Back End):
 		✔	Build controller action to convert locations from DB into geoJSON objects @critical @done (16-08-02 22:25)
 		☐	Delete unnecessary controllers (home_page, plant_locations?) @high
+		☐	In routes.rb make Pakkun's root page @high
 		--- ✄ -----------------------
 	Views (HTML, CSS, Javascript - Front End):
 		✔	Create footer @done (16-08-02 22:21)
@@ -22,5 +23,8 @@ Tasks:
 		☐	Fix jumbotron padding-top inconsistency when device display is >= 768px
 		☐	Refactor using Sass @high
 		☐	Improve mobile view, hamburger icon when toggled change into "X" @low
-		☐	Create "Add plant" button @today
+		✔	Create "Add plant" button @today @done (16-08-06 23:26)
+		☐	Center text in Add plant button @low
+		☐	Create Add plant view @today
+		☐	Redesign Pakkun's main view in 2 columns like: http://toomanyspots.herokuapp.com/
 		--- ✄ -----------------------
