@@ -1,3 +1,64 @@
 // Place all the styles related to the plantLocations controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: $helvetica;
+}
+
+.jumbotron {
+	align-items: center;
+	background-image: image-url("venus_flytrap_in_nature.jpeg");
+	background-position: right;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	color: white;
+	text-shadow: 2px 2px 8px #1D042A;
+	text-align: center;
+	margin-bottom: 0px;
+	padding-top: 80px;
+}
+
+// @media screen and (min-width: 768px) {
+//     padding-top: 98px;
+//     padding-bottom: 48px;
+// }
+
+#map {
+	width: 100%;
+	height: 500px;
+}
+
+#map-ui {
+	background-color: #fff;
+  border: 1px solid #999;
+  border-color: rgba(0, 0, 0, 0.4);
+  border-radius: 3px;
+  box-shadow: none;
+  z-index: 1;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#map-ui:hover {
+	background-color: #f8f8f8;
+	cursor: pointer;
+}
+
+#map-ui a {
+	// font-size: 13px;
+	height: 26px;
+	width: 60px;
+	color: #404040;
+	display: block;
+	margin: 0;
+	padding: 0;
+	// padding: 10px;
+	text-decoration: none;
+	// border: 1px solid rgba(0, 0, 0, 0.25);
+	text-align: center;
+}
