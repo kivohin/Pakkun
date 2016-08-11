@@ -7,7 +7,7 @@ Tasks:
 		--- ✄ -----------------------
 	Controllers (Ruby - Back End):
 		✔	Build controller action to convert locations from DB into geoJSON objects @critical @done (16-08-02 22:25)
-		☐	Delete unnecessary controllers (home_page, plant_locations?) @high @today
+		✔	Delete unnecessary controllers (home_page) @high @today @done (16-08-10 19:20)
 		✔	In routes.rb make Pakkun's root page @high @done (16-08-09 15:26)
 		--- ✄ -----------------------
 	Views (HTML, CSS, Javascript - Front End):

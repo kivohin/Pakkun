@@ -55,7 +55,7 @@ $(function() {
 
   $.ajax({
   	dataType: 'text',
-  	url: 'home.json',
+  	url: 'plant_locations.json',
   	method: 'get',
   	success: function(data) {
   		var geojson;

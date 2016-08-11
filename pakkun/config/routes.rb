@@ -1,14 +1,12 @@
 Rails.application.routes.draw do
 
+  root 'plant_locations#index'
+  # get 'home' => 'plant_locations#index'
+  resources :plant_locations
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
-
-  # resources :home_page
   
-  root 'plant_locations#index'
-  get 'home' => 'plant_locations#index'
-  # resources :plant_locations, only: [:index]
-
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
