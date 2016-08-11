@@ -33,6 +33,12 @@ class PlantLocationsController < ApplicationController
   end
 
   def create
-    render(:text => 'This route is plant_location#create.')
+    plant_location = PlantLocation.create(
+      :longitude => params[:plant_location][:longitude],
+      :latitude => params[:plant_location][:latitude],
+      :title => params[:plant_location][:title],
+      :description => params[:plant_location][:description])
+
+    render(:text => plant_location.attributes)
   end
 end
