@@ -1,6 +1,6 @@
 <h1>Add a new plant location</h1>
 
-<form>
+<form action="/plant_locations" method="POST">
 	<div>
 		<label for="longitude">Longitude</label>
 		<input type="text" name="longitude" id="longitude">
@@ -20,4 +20,6 @@
 		<label for="description">Description</label>
 		<textarea name="description" id="description"></textarea>
 	</div>
+
+	<button type="submit">Add plant location</button>
 </form>
