@@ -29,6 +29,10 @@ class PlantLocationsController < ApplicationController
   end
 
   def new
-    
+
+  end
+
+  def create
+    render(:text => 'This route is plant_location#create.')
   end
 end
