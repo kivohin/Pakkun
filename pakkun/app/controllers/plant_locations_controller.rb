@@ -39,6 +39,6 @@ class PlantLocationsController < ApplicationController
       :title => params[:plant_location][:title],
       :description => params[:plant_location][:description])
 
-    render(:text => plant_location.attributes)
+    redirect_to("/plant_locations")
   end
 end
