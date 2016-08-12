@@ -25,6 +25,7 @@ Tasks:
 		☐	Improve mobile view, hamburger icon when toggled change into "X" @low
 		✔	Create "Add plant" button @today @done (16-08-06 23:26)
 		☐	Center text in Add plant button @low
-		☐	Create Add plant view - http://guides.rubyonrails.org/working_with_javascript_in_rails.html @today
+		✔	Create Add plant view - http://guides.rubyonrails.org/working_with_javascript_in_rails.html @today @done (16-08-10 22:22)
 		☐	Redesign Pakkun's main view in 2 columns like: http://toomanyspots.herokuapp.com/
+		☐	Fix form submit coordinates fields not storing in DB @today
 		--- ✄ -----------------------
