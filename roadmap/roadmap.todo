@@ -20,12 +20,12 @@ Tasks:
 		☐	Cluster markers when several plants locations in same area - https://www.mapbox.com/mapbox.js/example/v1.0.0/markercluster-with-mapbox-data/
 		☐	Customize tooltips - https://www.mapbox.com/mapbox.js/example/v1.0.0/custom-popup-style
 		☐	Improve footer design, look Evernote's examples
-		☐	Fix jumbotron padding-top inconsistency when device display is >= 768px
+		✘	Fix jumbotron padding-top inconsistency when device display is >= 768px @cancelled (16-08-15 22:45)
 		☐	Refactor using Sass @high
 		☐	Improve mobile view, hamburger icon when toggled change into "X" @low
 		✔	Create "Add plant" button @today @done (16-08-06 23:26)
 		☐	Center text in Add plant button @low
 		✔	Create Add plant view - http://guides.rubyonrails.org/working_with_javascript_in_rails.html @today @done (16-08-10 22:22)
 		☐	Redesign Pakkun's main view in 2 columns like: http://toomanyspots.herokuapp.com/
-		☐	Fix form submit coordinates fields not storing in DB @today
+		✔	Fix form submit coordinates fields not storing in DB @today @done (16-08-11 23:47)
 		--- ✄ -----------------------
