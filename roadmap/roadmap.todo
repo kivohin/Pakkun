@@ -4,6 +4,7 @@ Tasks:
 	Ironhack's Final Project named **Pakkun** building tasks.
 	Models (Ruby - Database Templates):
 		✔	Create database for plant locations @done (16-08-02 22:25)
+		☐	Delete in schema.rb the map_plants table @low
 		--- ✄ -----------------------
 	Controllers (Ruby - Back End):
 		✔	Build controller action to convert locations from DB into geoJSON objects @critical @done (16-08-02 22:25)
