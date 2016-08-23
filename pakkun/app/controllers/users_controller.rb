@@ -13,6 +13,11 @@ class UsersController < ApplicationController
 		end
 	end
 
+	def show
+		url_id = params[:id].to_i
+		@user = User.find_by(id: url_id)
+	end
+
 	private
 
 	def user_params
