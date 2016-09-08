@@ -29,4 +29,5 @@ Tasks:
 		✔	Create Add plant view - http://guides.rubyonrails.org/working_with_javascript_in_rails.html @today @done (16-08-10 22:22)
 		☐	Redesign Pakkun's main view in 2 columns like: http://toomanyspots.herokuapp.com/
 		✔	Fix form submit coordinates fields not storing in DB @today @done (16-08-11 23:47)
+		☐	In navbar Pakkun brand name now will redirect to main page. But after redirecting map won't load, in order to view the map I have to reload the page, fix this!
 		--- ✄ -----------------------
