@@ -1,4 +1,4 @@
-<div class="container">
+<!-- <div class="container">
 	<div class="form">
 		
 		<h1>Add plant</h1>
@@ -30,4 +30,30 @@
 		</form>
 
 	</div>
+</div> -->
+
+<div class="new_plant">
+  <div class="container">
+    <div class="form">
+
+      <h1>New plant</h1>
+
+      <%= form_for(@plant_location) do |f| %>
+        
+
+				<%= f.text_field :title, :placeholder => "Plant name" %>
+				<%= f.text_field :longitude, :placeholder => "Longitude" %>
+				<%= f.text_field :latitude, :placeholder => "Latitude" %>
+				<%= f.text_area :description, :placeholder => "Description" %>
+				<% if @plant_location.id == nil %>
+					<%= f.hidden_field :username, :value => current_user.username %>
+					<%= f.submit "Add", class: "btn btn-danger btn-lg" %>
+				<% else %>
+					<%= f.submit "Save", class: "btn btn-danger btn-lg" %>
+				<% end %>
+      
+			<% end %>
+  
+    </div>
+  </div>
 </div>

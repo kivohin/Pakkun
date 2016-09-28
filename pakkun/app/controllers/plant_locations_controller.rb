@@ -31,7 +31,7 @@ class PlantLocationsController < ApplicationController
   end
 
   def new
-    render 'new'
+    @plant_location = PlantLocation.new
   end
 
   def create
