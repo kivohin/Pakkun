@@ -18,6 +18,8 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-@import 'plant_locations';
 @import 'navbar';
 @import 'footer';
+
+@import 'plant_locations';
+@import 'users';
