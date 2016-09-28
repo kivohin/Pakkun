@@ -9,7 +9,7 @@ $(function() {
 	// Create a map in the div #map
 	var map = L.mapbox.map('map', 'mapbox.outdoors', {
 		center: [51.8710129, 6.0044086], // [lat, lng]
-		zoom: 3,
+		zoom: 2,
 		zoomControl: false,
 		minZoom: 2,
 		maxBounds: ([
