@@ -5,6 +5,7 @@ class CreatePlantLocations < ActiveRecord::Migration
       t.decimal :latitude
       t.string :title
       t.text :description
+      t.string :username
 
       t.timestamps null: false
     end
