@@ -1,0 +1,22 @@
+<div class="login">
+  <div class="container">
+    <div class="form">
+      
+      <% if current_user %>
+        <h1>Hi <%= current_user.username %>!</h1>
+        <p>You're already logged in</p>
+      <% else %>
+        <h1>Log in</h1>
+
+        <%= form_for(:session, url: login_path) do |f| %>
+
+          <%= f.email_field :email, :placeholder => "Email" %> 
+          <%= f.password_field :password, :placeholder => "Password" %> 
+          <%= f.submit "Log in", class: "btn btn-danger btn-lg" %>
+
+        <% end %>
+      <% end %>
+  
+    </div>
+  </div>
+</div>
