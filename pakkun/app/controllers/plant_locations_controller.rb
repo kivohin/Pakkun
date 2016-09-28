@@ -34,13 +34,29 @@ class PlantLocationsController < ApplicationController
     @plant_location = PlantLocation.new
   end
 
-  def create
-    plant_location = PlantLocation.create(
-      :longitude => params[:plant_location][:longitude],
-      :latitude => params[:plant_location][:latitude],
-      :title => params[:plant_location][:title],
-      :description => params[:plant_location][:description])
+  # def create
+  #   plant_location = PlantLocation.create(
+  #     :longitude => params[:plant_location][:longitude],
+  #     :latitude => params[:plant_location][:latitude],
+  #     :title => params[:plant_location][:title],
+  #     :description => params[:plant_location][:description])
 
-    redirect_to("/plant_locations")
+  #   redirect_to("/plant_locations")
+  # end
+
+  def create
+    @plant_location = PlantLocation.new(plant_location_params)
+
+    if @plant_location.save
+      redirect_to '/'
+    else
+      render 'new'
+    end
+  end
+
+  private
+
+  def plant_location_params
+    params.require(:plant_location).permit(:longitude, :latitude, :title, :description, :username)
   end
 end
