@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
 	def new
-		render 'new'
+		@user = User.new
 	end
 
 	def create
