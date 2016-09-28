@@ -1,11 +1,18 @@
-<h1>Sign up</h1>
+<div class="signup">
+  <div class="container">
+    <div class="form">
 
-<%= form_for(:user, url: users_path) do |f| %>
-	
-	<%= f.text_field :username, :placeholder => "Name:" %>
-	<%= f.email_field :email, :placeholder => "Email:" %> 
-	<%= f.password_field :password, :placeholder => "Password:" %>
-	<%= f.password_field :password_confirmation, :placeholder => "Password Confirmation:" %> 
-	<%= f.submit "Submit", class: "btn-submit" %>
+      <h1>Sign up</h1>
 
-<% end %>
+      <%= form_for(@user) do |f| %>
+        
+        <%= f.text_field :username, :placeholder => "Name" %>
+        <%= f.email_field :email, :placeholder => "Email" %>
+        <%= f.password_field :password, :placeholder => "Password" %>
+        <%= f.submit "Submit", class: "btn btn-danger btn-lg" %>
+
+      <% end %>
+  
+    </div>
+  </div>
+</div>
