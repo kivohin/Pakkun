@@ -1,4 +1,6 @@
 class PlantLocationsController < ApplicationController
+  before_action :require_user, except: [:index]
+
   def index
   	@plant_locations = PlantLocation.all
   	@geojson = Array.new
