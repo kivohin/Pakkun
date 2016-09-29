@@ -1,0 +1,34 @@
+<div class="jumbotron">
+	<div class="container">
+	  	<h1>Hi <%= current_user.username %></h1>
+	    <p>Here you can find all the carnivorous plants you have discovered so far!</p>
+	</div>
+</div>
+
+<div class="user_plants">
+  <div class="container">    
+
+		<% @user_plant_locations.each do |user_plant| %>
+			<div class="col-xs-12">
+        <div>
+          <h2><%= user_plant.title %></h2>
+        </div>
+
+        <div class="author-date">
+          <p>Added on <%= user_plant.created_at.strftime('%b %d, %Y') %></p>
+        </div>
+        
+				<div>
+					<p>Longitude: <%= user_plant.longitude %> | Latitude: <%= user_plant.latitude %></p>
+				</div>
+
+        <div>
+          <p class="lead"><%= user_plant.description %></p>
+        </div>
+
+        <hr>
+      </div>
+		<% end %>
+
+  </div>
+</div>

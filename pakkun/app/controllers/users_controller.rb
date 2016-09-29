@@ -14,6 +14,10 @@ class UsersController < ApplicationController
 		end
 	end
 
+	def show
+    @user_plant_locations = PlantLocation.where(username: current_user.username)
+  end
+
 	private
 	
 	def user_params

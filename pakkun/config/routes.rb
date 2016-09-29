@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   root 'plant_locations#index'
+
   resources :plant_locations
 
   get 'signup' => 'users#new'
