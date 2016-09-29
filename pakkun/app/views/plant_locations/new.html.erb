@@ -7,10 +7,10 @@
       <%= form_for(@plant_location) do |f| %>
         
 
-				<%= f.text_field :title, :placeholder => "Plant name" %>
-				<%= f.text_field :longitude, :placeholder => "Longitude" %>
-				<%= f.text_field :latitude, :placeholder => "Latitude" %>
-				<%= f.text_area :description, :placeholder => "Description" %>
+				<%= f.text_field :title, :placeholder => "Plant name", :required => 'required' %>
+				<%= f.text_field :longitude, :placeholder => "Longitude", :required => 'required' %>
+				<%= f.text_field :latitude, :placeholder => "Latitude", :required => 'required' %>
+				<%= f.text_area :description, :placeholder => "Description", :required => 'required' %>
 				<% if @plant_location.id == nil %>
 					<%= f.hidden_field :username, :value => current_user.username %>
 					<%= f.submit "Add", class: "btn btn-danger btn-lg" %>

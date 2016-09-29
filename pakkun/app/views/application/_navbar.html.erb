@@ -20,6 +20,7 @@
         <% if current_user %>
           <li class="navbar-text"><%= current_user.email %></li>
           <a href="/plant_locations/new"><button type="button" class="btn btn-success navbar-btn">Add plant</button></a>
+          <a href="/users/<%= current_user.id %>"><button type="button" class="btn btn-primary navbar-btn">My plants</button></a>
           <a href="/logout" data-method="delete"><button type="button" class="btn btn-danger navbar-btn">Log out</button></a>
         <% else %>
           <a href="/login"><button type="button" class="btn btn-primary navbar-btn">Log in</button></a>

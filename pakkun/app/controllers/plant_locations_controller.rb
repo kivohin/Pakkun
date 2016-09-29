@@ -40,7 +40,7 @@ class PlantLocationsController < ApplicationController
     if @plant_location.save
       redirect_to '/'
     else
-      render 'new'
+      redirect_to '/plant_location/new'
     end
   end
 
