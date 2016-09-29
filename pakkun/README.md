@@ -24,7 +24,7 @@ Currently when navigating away from the home page and then going back via the na
 
 I published the assignment on Heroku, after 30 minutes of no traffic it will go in sleep mode, it will become active again after making a request, but expect a initial short delay, you can find it here:
 
-www.pakkun.io
+https://pakkun.herokuapp.com/
 
 However if you want to run locally you must have the following installed:
 - Rails 4.2.6+
