@@ -16,6 +16,10 @@ This is my final project of the Ironhack Bootcamp called Pakkun, a web applicati
 - AJAX
 - bcrypt (Password hashing algorithm, stores a secure hash of users' passwords)
 
+## Known Issues
+
+Currently when navigating away from the home page and then going back via the navbar link won't load the map. Just reload the page and the map will show again. This will be fixed soon, I'm trying to find out what's happening.
+
 ## Usage
 
 I published the assignment on Heroku, after 30 minutes of no traffic it will go in sleep mode, it will become active again after making a request, but expect a initial short delay, you can find it here:
