@@ -31,4 +31,5 @@ Tasks:
 		✔	Fix form submit coordinates fields not storing in DB @today @done (16-08-11 23:47)
 		☐	In navbar Pakkun brand name now will redirect to main page. But after redirecting map won't load, in order to view the map I have to reload the page, fix this!
 		☐	Implement features and fixes from little notebook
+		☐	Add roles to users, use Codecademy tutorial about authentication
 		--- ✄ -----------------------
