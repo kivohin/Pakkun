@@ -4,7 +4,7 @@ Tasks:
 	Ironhack's Final Project named **Pakkun** building tasks.
 	Models (Ruby - Database Templates):
 		✔	Create database for plant locations @done (16-08-02 22:25)
-		☐	Delete in schema.rb the map_plants table @low
+		✔	Delete in schema.rb the map_plants table @low @done (16-10-03 13:43)
 		--- ✄ -----------------------
 	Controllers (Ruby - Back End):
 		✔	Build controller action to convert locations from DB into geoJSON objects @critical @done (16-08-02 22:25)
@@ -20,14 +20,15 @@ Tasks:
 		☐	Make minus (-) zoom button gray if zoom level can’t go higher
 		☐	Cluster markers when several plants locations in same area - https://www.mapbox.com/mapbox.js/example/v1.0.0/markercluster-with-mapbox-data/
 		☐	Customize tooltips - https://www.mapbox.com/mapbox.js/example/v1.0.0/custom-popup-style
-		☐	Improve footer design, look Evernote's examples
+		✔	Improve footer design, look Evernote's examples @done (16-10-03 13:42)
 		✘	Fix jumbotron padding-top inconsistency when device display is >= 768px @cancelled (16-08-15 22:45)
 		☐	Refactor using Sass @high
 		☐	Improve mobile view, hamburger icon when toggled change into "X" @low
 		✔	Create "Add plant" button @today @done (16-08-06 23:26)
-		☐	Center text in Add plant button @low
+		✔	Center text in Add plant button @low @done (16-10-03 13:42)
 		✔	Create Add plant view - http://guides.rubyonrails.org/working_with_javascript_in_rails.html @today @done (16-08-10 22:22)
 		☐	Redesign Pakkun's main view in 2 columns like: http://toomanyspots.herokuapp.com/
 		✔	Fix form submit coordinates fields not storing in DB @today @done (16-08-11 23:47)
 		☐	In navbar Pakkun brand name now will redirect to main page. But after redirecting map won't load, in order to view the map I have to reload the page, fix this!
+		☐	Implement features and fixes from little notebook
 		--- ✄ -----------------------
